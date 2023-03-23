@@ -14,6 +14,19 @@ Before using the python script to make concat all you data make sure you install
 
 Make sure the `requirements.txt` file is from the one provided in this repository. You might have to add in the file path if it does not initially work
 
+#### Creating config file (REQURIED)
+---
+Before running the tool make sure to create a config file that contains the ip_address, username, and password of the machine
+
+to do this open up a text editior and paste the following (each in a new line):
+`username = ''`   
+`password = ''`   
+`ip_address = ''`   
+
+Make sure to fill in the information with the target credentials and save the file under the `functions` folder as `config.py`.
+
+When completed you can run the tool
+
 #### Running the Tool
 ---
 Using a command prompt run the following command and lauch Jypyter Lab:
